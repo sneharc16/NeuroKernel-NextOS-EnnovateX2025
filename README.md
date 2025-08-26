@@ -35,13 +35,13 @@
 
 * **Source Code** - [Source](./src/) *(Cross-platform text-only MVP (macOS + Linux + Windows terminal). Each script installs and runs consistently on the intended platforms.)*
 
-* **Models Used** - Optional offline: GGUF or local Hugging Face model folder. See `docs/06_models.md` for links to recommended open-weight models.
+* **Models Used** - Optional offline: GGUF or local Hugging Face model folder. 
 
-* **Models Published** - N/A (no custom model trained). If you train one, publish on Hugging Face and add link here.
+* **Models Published** - N/A (no custom model trained).
 
-* **Datasets Used** - N/A (no external datasets required). If you add public datasets, list them here.
+* **Datasets Used** - N/A (no external datasets required).
 
-* **Datasets Published** - Optional: Synthetic command–intent dataset (see `docs/07_datasets.md`) — add Hugging Face link if published.
+* **Datasets Published** - N/A
 
 ## Attribution
 
@@ -77,7 +77,7 @@ python src/neuroos_macos.py
 export NEUROOS_OFFLINE=1
 ```
 This disables web helpers (RSS, weather, translate) and guarantees fully local execution.  
-See `docs/03_setup_install.md` for details.
+
 
 ## Usage
 
@@ -98,7 +98,6 @@ See `docs/03_setup_install.md` for details.
 - `open file report.pdf`
 - `play file ~/Music/song.mp3`
 
-Additional details in `docs/04_usage.md`.
 
 ## Offline / Compliance Mode
 
@@ -107,20 +106,20 @@ Additional details in `docs/04_usage.md`.
 - **Disallowed:** third-party APIs, proprietary data
 
 Compliance mode is enabled by setting `NEUROOS_OFFLINE=1`.  
-See `docs/05_offline_compliance.md`.
+
 
 ## Models
 
 - MVP uses no LLM (rule-compliant).
 - Optional: local GGUF or Hugging Face models (TinyLlama, Qwen).
 - No internet calls; models load only from local files.
-- Links to recommended open-weight models provided in `docs/06_models.md`.
+
 
 ## Datasets
 
 - None required for MVP (rule-based).
 - Optionally, a small synthetic dataset of command → intent/slots pairs can be published on Hugging Face.
-- See `docs/07_datasets.md` for details.
+
 
 ## Security & Privacy
 
@@ -130,7 +129,7 @@ See `docs/05_offline_compliance.md`.
 - Minimal OS-level privileges
 - Full transparency; users can inspect all files
 
-See `docs/08_security_privacy.md`.
+
 
 ## Testing & Validation
 
@@ -138,7 +137,7 @@ See `docs/08_security_privacy.md`.
 - **Manual:** scripted demo sequence covering app launch, workspaces, reminders, file/music control
 - **Metrics:** command latency < 1s; ≥90% accuracy on demo intent set; full sequence completion rate
 
-See `docs/09_testing_validation.md`.
+
 
 ## FAQ
 
@@ -147,7 +146,7 @@ See `docs/09_testing_validation.md`.
 - Architecture is Raspberry Pi-ready
 - Default workspaces are user-editable JSON
 
-See `docs/10_faq.md`.
+
 
 ## Changelog
 
@@ -157,7 +156,7 @@ See `docs/10_faq.md`.
 - **2025-MM-DD:** Added reminders, fuzzy file open, media controls, local audio
 - **2025-MM-DD:** Wrote full docs and test plan
 
-See `docs/11_changelog.md`.
+
 
 ## License
 
