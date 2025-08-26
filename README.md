@@ -47,6 +47,8 @@
 
 This project is built from scratch as an original OS-level AI experience. No existing open source projects were used as a base.
 
+---
+
 # NeuroOS — Human-First OS-Level AI (Text-Only MVP)
 
 ## Setup & Installation
@@ -77,8 +79,6 @@ export NEUROOS_OFFLINE=1
 This disables web helpers (RSS, weather, translate) and guarantees fully local execution.  
 See `docs/03_setup_install.md` for details.
 
----
-
 ## Usage
 
 **Run:**
@@ -100,8 +100,6 @@ See `docs/03_setup_install.md` for details.
 
 Additional details in `docs/04_usage.md`.
 
----
-
 ## Offline / Compliance Mode
 
 **Challenge rule recap:**
@@ -111,8 +109,6 @@ Additional details in `docs/04_usage.md`.
 Compliance mode is enabled by setting `NEUROOS_OFFLINE=1`.  
 See `docs/05_offline_compliance.md`.
 
----
-
 ## Models
 
 - MVP uses no LLM (rule-compliant).
@@ -120,15 +116,11 @@ See `docs/05_offline_compliance.md`.
 - No internet calls; models load only from local files.
 - Links to recommended open-weight models provided in `docs/06_models.md`.
 
----
-
 ## Datasets
 
 - None required for MVP (rule-based).
 - Optionally, a small synthetic dataset of command → intent/slots pairs can be published on Hugging Face.
 - See `docs/07_datasets.md` for details.
-
----
 
 ## Security & Privacy
 
@@ -140,8 +132,6 @@ See `docs/05_offline_compliance.md`.
 
 See `docs/08_security_privacy.md`.
 
----
-
 ## Testing & Validation
 
 - **Automated:** smoke tests, intent parsing, file opening
@@ -149,8 +139,6 @@ See `docs/08_security_privacy.md`.
 - **Metrics:** command latency < 1s; ≥90% accuracy on demo intent set; full sequence completion rate
 
 See `docs/09_testing_validation.md`.
-
----
 
 ## FAQ
 
@@ -161,8 +149,6 @@ See `docs/09_testing_validation.md`.
 
 See `docs/10_faq.md`.
 
----
-
 ## Changelog
 
 - **2025-MM-DD:** Created Linux terminal MVP (no LLM), compliance mode added
@@ -172,8 +158,6 @@ See `docs/10_faq.md`.
 - **2025-MM-DD:** Wrote full docs and test plan
 
 See `docs/11_changelog.md`.
-
----
 
 ## License
 
