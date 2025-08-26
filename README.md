@@ -160,5 +160,11 @@ Compliance mode is enabled by setting `NEUROOS_OFFLINE=1`.
 
 ## License
 
-This project is licensed under the MIT License.  
-You may also adopt Apache 2.0 or BSD 3-Clause if preferred.
+LICENSE (MIT)
+MIT License
+
+Copyright (c) 2025 NeuroKernels
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction...
