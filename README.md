@@ -21,21 +21,161 @@
 
 # Samsung EnnovateX 2025 AI Challenge Submission
 
-- **Problem Statement** - *(Must exactly match one of the nine Samsung EnnovateX AI Challenge Problem Statements)*
-- **Team name** - *(As provided during the time of registration)*
-- **Team members (Names)** - *Member 1 Name*, *Member 2 Name*, *Member 3 Name*, *Member 4 Name* 
-- **Demo Video Link** - *(Upload the Demo video on Youtube as a public or unlisted video and share the link. Google Drive uploads or any other uploads are not allowed.)*
+* **Problem Statement** - Building the Next OS-Level AI Experience - A single, powerful multimodal foundation model can serve as an unchangeable firmware within edge/mobile operating system, enabling applications to use compact "adapters" (for varied downstream tasks – text, image, audio, video) instead of bundling several large models. Some of the architectural innovations that can be included are - firmware backbone and task-specific adapters, multi-path execution to route tasks efficiently based on complexity, demonstrating system benefits through metrics like latency and battery performance.
 
+* **Team name** - NeuroKernels
 
-### Project Artefacts
+* **Team members (Names)** - Dhruv Dawar, Sneha Roychowdhury, Shivya Khanpur
 
-- **Technical Documentation** - [Docs](docs) *(All technical details must be written in markdown files inside the docs folder in the repo)*
-- **Source Code** - [Source](src) *(All source code must be added to the src folder in the repo. The code must be capable of being successfully installed/executed and must run consistently on the intended platforms.)*
-- **Models Used** - *(Hugging Face links to all models used in the project. You are permitted to use open weight models.)*
-- **Models Published** - *(In case you have developed a model as a part of your solution, kindly upload it on Hugging Face under appropriate open source license and add the link here.)*
-- **Datasets Used** - *(Links to all datasets used in the project. You are permitted to use publicly available datasets under licenses like Creative Commons, Open Data Commons, or equivalent.)*
-- **Datasets Published** - *(Links to all datasets created for the project and published on Hugging Face. You are allowed to publish any synthetic or proprietary dataset used in their project, but will be responsible for any legal compliance and permission for the same. The dataset can be published under Creative Commons, Open Data Commons, or equivalent license.)*
+* **Demo Video Link** - REPLACE WITH YOUTUBE LINK (Google Drive or other uploads are not allowed)
 
-### Attribution 
+## Project Artefacts
 
-In case this project is built on top of an existing open source project, please provide the original project link here. Also, mention what new features were developed. Failing to attribute the source projects may lead to disqualification during the time of evaluation.
+* **Technical Documentation** - [Docs](./docs/) *(All technical details including architecture, setup, usage, compliance, models/datasets, testing, FAQs, and changelog written in markdown files inside the docs folder)*
+
+* **Source Code** - [Source](./src/) *(Cross-platform text-only MVP (macOS + Linux + Windows terminal). Each script installs and runs consistently on the intended platforms.)*
+
+* **Models Used** - Optional offline: GGUF or local Hugging Face model folder. See `docs/06_models.md` for links to recommended open-weight models.
+
+* **Models Published** - N/A (no custom model trained). If you train one, publish on Hugging Face and add link here.
+
+* **Datasets Used** - N/A (no external datasets required). If you add public datasets, list them here.
+
+* **Datasets Published** - Optional: Synthetic command–intent dataset (see `docs/07_datasets.md`) — add Hugging Face link if published.
+
+## Attribution
+
+This project is built from scratch as an original OS-level AI experience. No existing open source projects were used as a base.
+
+# NeuroOS — Human-First OS-Level AI (Text-Only MVP)
+
+## Setup & Installation
+
+### Linux (Debian/Ubuntu)
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+sudo apt-get update
+sudo apt-get install -y xclip wl-clipboard libnotify-bin playerctl ffmpeg xdg-utils || true
+sudo apt-get install -y mpv vlc || true
+python src/neuroos_linux_nollm.py
+```
+
+### macOS
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python src/neuroos_macos.py
+```
+
+### Compliance Mode (no network helpers)
+```bash
+export NEUROOS_OFFLINE=1
+```
+This disables web helpers (RSS, weather, translate) and guarantees fully local execution.  
+See `docs/03_setup_install.md` for details.
+
+---
+
+## Usage
+
+**Run:**
+- Linux: `python src/neuroos_linux_nollm.py`
+- macOS: `python src/neuroos_macos.py`
+
+**Example commands** (chainable with `;`, `then`, `and then`):
+- `open chrome`
+- `open firefox and code and terminal`
+- `open workspace coding`
+- `save workspace myfocus` → `open workspace myfocus`
+- `send selection to notes`
+- `email selection to you@example.com subject Research`
+- `search this` (copy text first)
+- `take note: meeting at 6`
+- `remind me in 20 seconds to stretch`
+- `open file report.pdf`
+- `play file ~/Music/song.mp3`
+
+Additional details in `docs/04_usage.md`.
+
+---
+
+## Offline / Compliance Mode
+
+**Challenge rule recap:**
+- **Allowed:** open-source libraries, open data
+- **Disallowed:** third-party APIs, proprietary data
+
+Compliance mode is enabled by setting `NEUROOS_OFFLINE=1`.  
+See `docs/05_offline_compliance.md`.
+
+---
+
+## Models
+
+- MVP uses no LLM (rule-compliant).
+- Optional: local GGUF or Hugging Face models (TinyLlama, Qwen).
+- No internet calls; models load only from local files.
+- Links to recommended open-weight models provided in `docs/06_models.md`.
+
+---
+
+## Datasets
+
+- None required for MVP (rule-based).
+- Optionally, a small synthetic dataset of command → intent/slots pairs can be published on Hugging Face.
+- See `docs/07_datasets.md` for details.
+
+---
+
+## Security & Privacy
+
+- Offline by default, strict compliance mode
+- Local storage only for notes, reminders, and workspaces
+- No telemetry, no cloud accounts
+- Minimal OS-level privileges
+- Full transparency; users can inspect all files
+
+See `docs/08_security_privacy.md`.
+
+---
+
+## Testing & Validation
+
+- **Automated:** smoke tests, intent parsing, file opening
+- **Manual:** scripted demo sequence covering app launch, workspaces, reminders, file/music control
+- **Metrics:** command latency < 1s; ≥90% accuracy on demo intent set; full sequence completion rate
+
+See `docs/09_testing_validation.md`.
+
+---
+
+## FAQ
+
+- Uses no third-party APIs in Compliance Mode
+- Optional offline LLMs supported but disabled for submission
+- Architecture is Raspberry Pi-ready
+- Default workspaces are user-editable JSON
+
+See `docs/10_faq.md`.
+
+---
+
+## Changelog
+
+- **2025-MM-DD:** Created Linux terminal MVP (no LLM), compliance mode added
+- **2025-MM-DD:** Added macOS text-only script with Apple Notes/Reminders integration
+- **2025-MM-DD:** Implemented workspaces, chaining, selection routing
+- **2025-MM-DD:** Added reminders, fuzzy file open, media controls, local audio
+- **2025-MM-DD:** Wrote full docs and test plan
+
+See `docs/11_changelog.md`.
+
+---
+
+## License
+
+This project is licensed under the MIT License.  
+You may also adopt Apache 2.0 or BSD 3-Clause if preferred.
