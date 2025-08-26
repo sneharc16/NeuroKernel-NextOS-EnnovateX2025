@@ -1,6 +1,11 @@
 import os, re, json, time, difflib, subprocess, shlex, glob, threading, queue, sys, argparse, traceback, platform, wave
 from typing import Dict, Optional, Tuple, List, Any
 from pathlib import Path
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
 
 # --------- args / debug ----------
 ap = argparse.ArgumentParser(add_help=False)
