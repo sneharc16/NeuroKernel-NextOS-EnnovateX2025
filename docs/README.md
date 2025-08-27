@@ -55,7 +55,14 @@ No third-party/commercial APIs or SDKs; only OSS libraries & local resources.
 
 ## 3) Architecture (brief)
 
-(Architecture diagram image placeholder — insert your own diagram here)
+<img width="3840" height="2401" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183643" src="https://github.com/user-attachments/assets/3bceb4b4-8a3f-437a-8b60-699335a7c471" />
+<img width="2709" height="3840" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183615" src="https://github.com/user-attachments/assets/85569663-c231-449b-aee4-eb26c8a1a271" />
+<img width="3840" height="292" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183535" src="https://github.com/user-attachments/assets/59288b96-7750-49e1-9efe-6f566c1cfb94" />
+<img width="3840" height="1812" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183506" src="https://github.com/user-attachments/assets/01d0be4c-99ce-4f46-bc4c-73af33cfd175" />
+<img width="2111" height="3840" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183428" src="https://github.com/user-attachments/assets/50a9146c-ebc1-40fd-90c7-cc7a921ebf89" />
+<img width="3840" height="456" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183241" src="https://github.com/user-attachments/assets/b7576c24-6bf8-43fd-8ed5-784a11cedf40" />
+<img width="3840" height="3511" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183100" src="https://github.com/user-attachments/assets/b1d99dd9-b1af-45b1-8cbe-dc09df266936" />
+
 
 **Highlights:**
 - Intent-first (regex + typo/fuzzy), LLM fallback for Q&A and explain/summarize selection.  
