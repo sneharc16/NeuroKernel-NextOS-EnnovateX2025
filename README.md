@@ -25,7 +25,7 @@
 
 * **Team name** - NeuroKernels
 
-* **Team members (Names)** - Dhruv Dawar [@dhruv-developer](https://github.com/dhruv-developer), Sneha Roychowdhury [@sneharc16](https://github.com/sneharc16), and Shivya Khandpur [@Shivya0410](https://github.com/Shivya0410)
+* **Team members (Names)** - Dhruv Dawar [(@dhruv-developer)](https://github.com/dhruv-developer), Sneha Roychowdhury [(@sneharc16)](https://github.com/sneharc16), and Shivya Khandpur [(@Shivya0410)](https://github.com/Shivya0410))
 
 * **Demo Video Link** - https://www.youtube.com/watch?v=ziajMIa0Iyc
 
