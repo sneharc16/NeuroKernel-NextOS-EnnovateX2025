@@ -25,7 +25,7 @@
 
 * **Team name** - NeuroKernels
 
-* **Team members (Names)** - Dhruv Dawar, Sneha Roychowdhury, Shivya Khanpur
+* **Team members (Names)** - Dhruv Dawar, Sneha Roychowdhury, Shivya Khandpur
 
 * **Demo Video Link** - https://www.youtube.com/watch?v=ziajMIa0Iyc
 
