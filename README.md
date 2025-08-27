@@ -29,7 +29,7 @@
 
 * **Demo Video Link** - https://www.youtube.com/watch?v=ziajMIa0Iyc
 
-* https://github.com/sneharc16/NeuroOS-Human-First-OS-Level-AI-Text-Only-MVP-/issues/1#issue-3358765812
+* ![Screenshot for Reference]https://github.com/sneharc16/NeuroOS-Human-First-OS-Level-AI-Text-Only-MVP-/issues/1#issue-3358765812
 
 ## Project Artefacts
 
