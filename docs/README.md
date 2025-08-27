@@ -175,11 +175,22 @@ NeuroOS addresses these challenges through a fundamentally different approach:
 <p align="left"><em>Flowchart 1 – Multi Adaptor System Flow</em></p>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" height="250" />
   <img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" height="250" />
 </div>
 
 <p align="center"><em>Flowchart 2 – Flow of Data</em></p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" height="250" />
+</div>
+
+<p align="center"><em>Diagram 3 – Functionality Diagram</em></p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" height="250" />
+</div>
+
+<p align="center"><em>Diagram 4 – Functionality Diagram</em></p>
 
 <div align="left">
   <img src="https://github.com/user-attachments/assets/57c2ad86-c1eb-43b0-af6e-bb0c7995c2ed" height="400" />
@@ -188,6 +199,7 @@ NeuroOS addresses these challenges through a fundamentally different approach:
 <div align="left">
   <img src="https://github.com/user-attachments/assets/9d88312d-60e1-4570-9328-65622d86abcd" height="400" />
 </div>
+
 
 
 
