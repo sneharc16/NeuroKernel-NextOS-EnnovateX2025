@@ -167,20 +167,13 @@ NeuroOS addresses these challenges through a fundamentally different approach:
 │   (Launch/Control)  │   (CRUD operations) │   (Notifications)   │
 └─────────────────────┴─────────────────────┴─────────────────────┘
 ```
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6e67bfbc-b440-44fd-b824-f2bf72e931e5" width="400" />
-  <img src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" width="400" />
-</div>
+<img src="https://github.com/user-attachments/assets/6e67bfbc-b440-44fd-b824-f2bf72e931e5" width="800" />
+<img src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" width="800" />
+<img src="https://github.com/user-attachments/assets/3c3df44b-f1a7-42c8-8d48-7f99f5b5f901" width="800" />
+<img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" width="800" />
+<img src="https://github.com/user-attachments/assets/57c2ad86-c1eb-43b0-af6e-bb0c7995c2ed" width="800" />
+<img src="https://github.com/user-attachments/assets/9d88312d-60e1-4570-9328-65622d86abcd" width="800" />
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/3c3df44b-f1a7-42c8-8d48-7f99f5b5f901" width="400" />
-  <img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" width="400" />
-</div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/57c2ad86-c1eb-43b0-af6e-bb0c7995c2ed" width="400" />
-  <img src="https://github.com/user-attachments/assets/9d88312d-60e1-4570-9328-65622d86abcd" width="400" />
-</div>
 
 
 ### Voice Processing Pipeline
