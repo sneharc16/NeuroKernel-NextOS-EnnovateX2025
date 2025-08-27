@@ -185,13 +185,9 @@ NeuroOS addresses these challenges through a fundamentally different approach:
   <img src="https://github.com/user-attachments/assets/57c2ad86-c1eb-43b0-af6e-bb0c7995c2ed" height="400" />
 </div>
 
-<p align="left"><em>Diagram 3 – Functionality Diagram</em></p>
-
 <div align="left">
   <img src="https://github.com/user-attachments/assets/9d88312d-60e1-4570-9328-65622d86abcd" height="400" />
 </div>
-
-<p align="left"><em>Diagram 4 – Functionality Diagram</em></p>
 
 
 
