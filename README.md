@@ -150,13 +150,6 @@ Compliance mode is enabled by setting `NEUROOS_OFFLINE=1`.
 
 
 
-## Changelog
-
-- **2025-MM-DD:** Created Linux terminal MVP (no LLM), compliance mode added
-- **2025-MM-DD:** Added macOS text-only script with Apple Notes/Reminders integration
-- **2025-MM-DD:** Implemented workspaces, chaining, selection routing
-- **2025-MM-DD:** Added reminders, fuzzy file open, media controls, local audio
-- **2025-MM-DD:** Wrote full docs and test plan
 
 
 
