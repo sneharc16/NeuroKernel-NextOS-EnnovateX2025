@@ -27,7 +27,7 @@
 
 * **Team members (Names)** - Dhruv Dawar, Sneha Roychowdhury, Shivya Khanpur
 
-* **Demo Video Link** - REPLACE WITH YOUTUBE LINK (Google Drive or other uploads are not allowed)
+* **Demo Video Link** - https://www.youtube.com/watch?v=ziajMIa0Iyc
 
 ## Project Artefacts
 
