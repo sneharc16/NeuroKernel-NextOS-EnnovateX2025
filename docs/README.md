@@ -853,7 +853,7 @@ pip install -r requirements-dev.txt
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [https://github.com/sneharc16/NeuroOS-Human-First-OS-Level-AI-Text-Only-MVP-/blob/main/License](LICENSE) file for details.
 
 ---
 
