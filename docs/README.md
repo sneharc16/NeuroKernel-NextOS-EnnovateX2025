@@ -113,6 +113,10 @@ NeuroOS addresses these challenges through a fundamentally different approach:
 
 ## Technical Architecture
 
+![en2](https://github.com/user-attachments/assets/cba394bf-51b1-43bc-9204-f342fc9ac1c0)
+![en1](https://github.com/user-attachments/assets/7d3e1c64-157b-4ce8-9133-52dcdd3d4a46)
+
+
 ### System Overview
 
 ```
