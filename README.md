@@ -29,6 +29,8 @@
 
 * **Demo Video Link** - https://www.youtube.com/watch?v=ziajMIa0Iyc
 
+* https://github.com/sneharc16/NeuroOS-Human-First-OS-Level-AI-Text-Only-MVP-/issues/1#issue-3358765812
+
 ## Project Artefacts
 
 * **Technical Documentation** - [Docs](./docs/) *(All technical details including architecture, setup, usage, compliance, models/datasets, testing, FAQs, and changelog written in markdown files inside the docs folder)*
