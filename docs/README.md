@@ -171,8 +171,8 @@ NeuroOS addresses these challenges through a fundamentally different approach:
 <img width="2709" height="3840" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183615" src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" />
 <img width="3840" height="1812" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183506" src="https://github.com/user-attachments/assets/3c3df44b-f1a7-42c8-8d48-7f99f5b5f901" />
 <img width="3840" height="3511" alt="Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-08-26-183100" src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" />
-![en2](https://github.com/user-attachments/assets/530820a3-71ad-4178-b028-bb0a376c461b)
-![en1](https://github.com/user-attachments/assets/9ebd1e95-0cad-4b5d-825e-b0d7e9b91734)
+![en2](https://github.com/user-attachments/assets/57c2ad86-c1eb-43b0-af6e-bb0c7995c2ed)
+![en1](https://github.com/user-attachments/assets/9d88312d-60e1-4570-9328-65622d86abcd)
 
 ### Voice Processing Pipeline
 
