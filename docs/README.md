@@ -168,42 +168,25 @@ NeuroOS addresses these challenges through a fundamentally different approach:
 └─────────────────────┴─────────────────────┴─────────────────────┘
 ```
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/6e67bfbc-b440-44fd-b824-f2bf72e931e5" height="250" />
-  <img src="https://github.com/user-attachments/assets/3c3df44b-f1a7-42c8-8d48-7f99f5b5f901" height="250" />
+  <img src="https://github.com/user-attachments/assets/6e67bfbc-b440-44fd-b824-f2bf72e931e5" height="220" />
+  <img src="https://github.com/user-attachments/assets/3c3df44b-f1a7-42c8-8d48-7f99f5b5f901" height="220" />
+  <img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" height="220" />
+  <img src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" height="220" />
 </div>
 
-<p align="left"><em>Flowchart 1 – Multi Adaptor System Flow</em></p>
+<p align="left"><em>Flowcharts & Diagrams (1–4): Multi Adaptor System Flow, Data Flow, and Functionality Views</em></p>
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" height="250" />
-</div>
+---
 
-<p align="center"><em>Flowchart 2 – Flow of Data</em></p>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" height="250" />
-</div>
-
-<p align="center"><em>Diagram 3 – Functionality Diagram</em></p>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" height="250" />
-</div>
-
-<p align="center"><em>Diagram 4 – Functionality Diagram</em></p>
+### Terminal Screenshots
 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/57c2ad86-c1eb-43b0-af6e-bb0c7995c2ed" height="400" />
+  <img src="https://github.com/user-attachments/assets/57c2ad86-c1eb-43b0-af6e-bb0c7995c2ed" height="500" />
 </div>
 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/9d88312d-60e1-4570-9328-65622d86abcd" height="400" />
+  <img src="https://github.com/user-attachments/assets/9d88312d-60e1-4570-9328-65622d86abcd" height="500" />
 </div>
-
-
-
-
-
 
 
 
