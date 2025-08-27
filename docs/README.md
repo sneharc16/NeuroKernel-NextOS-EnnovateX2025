@@ -167,20 +167,21 @@ NeuroOS addresses these challenges through a fundamentally different approach:
 │   (Launch/Control)  │   (CRUD operations) │   (Notifications)   │
 └─────────────────────┴─────────────────────┴─────────────────────┘
 ```
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6e67bfbc-b440-44fd-b824-f2bf72e931e5" height="300" />
-  <img src="https://github.com/user-attachments/assets/3c3df44b-f1a7-42c8-8d48-7f99f5b5f901" height="300" />
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/6e67bfbc-b440-44fd-b824-f2bf72e931e5" height="250" />
+  <img src="https://github.com/user-attachments/assets/3c3df44b-f1a7-42c8-8d48-7f99f5b5f901" height="250" />
+  <img src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" height="250" />
+  <img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" height="250" />
 </div>
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/19191199-932b-4785-ad4e-ba54bcb64241" height="300" />
-  <img src="https://github.com/user-attachments/assets/cba44648-2782-4d96-8cd0-6762ecdc2e0c" height="300" />
-</div>
-
-<div align="center">
+<div align="left">
   <img src="https://github.com/user-attachments/assets/57c2ad86-c1eb-43b0-af6e-bb0c7995c2ed" height="300" />
+</div>
+
+<div align="left">
   <img src="https://github.com/user-attachments/assets/9d88312d-60e1-4570-9328-65622d86abcd" height="300" />
 </div>
+
 
 
 
