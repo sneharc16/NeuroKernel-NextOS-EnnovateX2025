@@ -130,10 +130,10 @@ NeuroOS addresses these challenges through a fundamentally different approach:
                                     ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Intent Parser Layer                          │
-├─────────────────────┬─────────────────────┬───────────────────────┤
-│   Regex Patterns    │   Fuzzy Matching    │   LLM Fallback       │
-│   (Exact matches)   │   (Typo tolerance)  │   (Complex queries)   │
-└─────────────────────┴─────────────────────┴───────────────────────┘
+├─────────────────────┬─────────────────────┬─────────────────────┤
+│   Regex Patterns    │   Fuzzy Matching    │   LLM Fallback      │
+│   (Exact matches)   │   (Typo tolerance)  │   (Complex queries) │
+└─────────────────────┴─────────────────────┴─────────────────────┘
                                     │
                                     ▼
 ┌─────────────────────────────────────────────────────────────────┐
@@ -146,26 +146,26 @@ NeuroOS addresses these challenges through a fundamentally different approach:
                                     ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                   Middleware Layer                              │
-├─────────────────────┬─────────────────────┬───────────────────────┤
-│   File Operations   │   Context Storage   │   Inter-app Comm     │
-│   (Path resolution) │   (Session state)   │   (Data routing)      │
-└─────────────────────┴─────────────────────┴───────────────────────┘
+├─────────────────────┬─────────────────────┬─────────────────────┤
+│   File Operations   │   Context Storage   │   Inter-app Comm    │
+│   (Path resolution) │   (Session state)   │   (Data routing)    │
+└─────────────────────┴─────────────────────┴─────────────────────┘
                                     │
                                     ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                  OS Adapter Layer                               │
-├─────────────────────┬─────────────────────┬───────────────────────┤
-│   macOS Adapter     │   Linux Adapter     │   Windows Adapter     │
-│   (AppleScript)     │   (xdg-open)        │   (PowerShell)        │
-└─────────────────────┴─────────────────────┴───────────────────────┘
+├─────────────────────┬─────────────────────┬─────────────────────┤
+│   macOS Adapter     │   Linux Adapter     │   Windows Adapter   │
+│   (AppleScript)     │   (xdg-open)        │   (PowerShell)      │
+└─────────────────────┴─────────────────────┴─────────────────────┘
                                     │
                                     ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                   System Execution Layer                        │
-├─────────────────────┬─────────────────────┬───────────────────────┤
-│   Applications      │   File System       │   System Services     │
-│   (Launch/Control)  │   (CRUD operations) │   (Notifications)     │
-└─────────────────────┴─────────────────────┴───────────────────────┘
+├─────────────────────┬─────────────────────┬─────────────────────┤
+│   Applications      │   File System       │   System Services   │
+│   (Launch/Control)  │   (CRUD operations) │   (Notifications)   │
+└─────────────────────┴─────────────────────┴─────────────────────┘
 ```
 
 ### Voice Processing Pipeline
